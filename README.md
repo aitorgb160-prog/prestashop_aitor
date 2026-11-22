@@ -1,6 +1,6 @@
 # Implantación de PrestaShop en AWS
 **Alumno:** Aitor Guerrero  
-**Dominio:** 
+**Dominio:** https://prestashopaitor.duckdns.org
 
 ## 1. Creación de la instancia EC2
 Se ha creado una instancia EC2 con las siguientes características:
