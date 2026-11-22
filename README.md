@@ -7,15 +7,15 @@ Se ha creado una instancia EC2 con las siguientes características:
  
 - **AMI:** Ubuntu Server 26.04 LTS.
 - **Tipo de instancia:** t3.small (2 GB de RAM).
-- **Almacenamiento:** 20 GiB.
+- **Almacenamiento:** 20 GiB.  
 ![instancia](img/instancia.png)  
 
 ### Configuración de la instancia
-Durante la creación de la instancia se configuró un **grupo de seguridad** con los puertos 22 (SSH), 80 (HTTP) y 443 (HTTPS) abiertos, y se creó un par de claves RSA para conectar por SSH. Después se asignó una IP elástica a la instancia para que su dirección no cambie al reiniciarla.
+Durante la creación de la instancia se configuró un **grupo de seguridad** con los puertos 22 (SSH), 80 (HTTP) y 443 (HTTPS) abiertos, y se creó un par de claves RSA para conectar por SSH. Después se asignó una IP elástica a la instancia para que su dirección no cambie al reiniciarla.  
 ![ip](img/ip.png)  
 
 ## 2. Nombre de dominio
-Se ha registrado el dominio prestashopaitor.duckdns.org en DuckDNS y se ha configurado para que apunte a la IP elástica de la instancia 15.188.32.115
+Se ha registrado el dominio prestashopaitor.duckdns.org en DuckDNS y se ha configurado para que apunte a la IP elástica de la instancia 15.188.32.115  
 ![dominio](img/dominio.png)  
 
 ## 3. Conexión por SSH
